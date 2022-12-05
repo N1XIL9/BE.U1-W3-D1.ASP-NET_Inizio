@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link href="Style.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
@@ -16,12 +17,12 @@
             <p> Cognome</p>
             <asp:TextBox ID="CognomeSpettatore" runat="server"></asp:TextBox>
             <p> Sala</p>
-            <asp:DropDownList ID="DropDownList" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="DropDownList" runat="server"></asp:DropDownList> <br />
             <asp:CheckBox ID="bigliettoRidoto" runat="server" /> Biglietto ridotto <br />
             <asp:Button ID="Buttone" runat="server" Text="Prenota" OnClick="Buttone_Click" />
         </div>
-        <div class="InfoVendite">
-            <h1> Informazioni Supplementari</h1>
+        <div class="infoVendite">
+            <h1> Info vendite</h1>
 
             <div class="SN">
                 <p>Sala NORD:  <asp:Label ID="SN_venduto" runat="server" Text=""></asp:Label> 

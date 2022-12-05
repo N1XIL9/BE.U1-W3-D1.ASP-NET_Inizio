@@ -1,0 +1,26 @@
+﻿body {
+   
+}
+
+#form1 {
+    display: flex;
+    border: 1px solid black;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.infoVendite {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Buttone {
+    margin-top: 10px;
+}
